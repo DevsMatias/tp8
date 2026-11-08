@@ -1,3 +1,4 @@
+// Link del repositorio https://github.com/DevsMatias/tp8
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -32,11 +33,6 @@ int main(void) {
     mostrar_piezas("rectificables", p_rectificables, n_rectificar);
     mostrar_piezas("rechazadas", p_rechazadas, n_rechazar);
 
-    // Buena práctica: liberar la memoria dinámica reservada
-    free(p_rectificables);
-    free(p_rechazadas);
-
-    system("pause");
 
     return 0;
 }
@@ -137,5 +133,3 @@ void mostrar_piezas(char *mensaje, float *p, int n) {
 
     printf("\n");
 }
-
-// Link del repositorio https://github.com/DevsMatias/tp8
